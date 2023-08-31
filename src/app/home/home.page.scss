@@ -1,0 +1,43 @@
+.header {
+  background-color: #1f1f1f;
+  margin-bottom: 10px;
+}
+
+.data-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  color: #fff;
+  gap: 12px;
+
+  .data-content-container {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    span:nth-child(2) {
+      font-weight: 600;
+    }
+  }
+
+  .data-content-below {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: start;
+    align-items: flex-start;
+
+    span:nth-child(1) {
+      font-weight: 600;
+    }
+
+    .badges {
+      ion-badge {
+        margin-right: 5px;
+      }
+    }
+  }
+}
